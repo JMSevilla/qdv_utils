@@ -1,0 +1,33 @@
+{
+  "name": "@qodev/utils",
+  "version": "4.11.3",
+  "private": false,
+  "author": "Qodev-UI Team",
+  "description": "Qodev-UI Utils - Utility functions for Qodev-UI.",
+  "main": "./index.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "material design",
+    "utils"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "prop-types": "^15.7.2",
+    "react-is": "^16.8.0 || ^17.0.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "module": "./esm/index.js",
+  "typings": "./index.d.ts"
+}
